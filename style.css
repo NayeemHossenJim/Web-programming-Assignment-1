@@ -1,46 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
         
-        body {
-            font-family: 'Orbitron', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color:beige;
-            color:black;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            color:black;
-            text-align: center;
-            margin-top: 50px;
-            font-size: 3em;
-            text-shadow: 0 0 10px #66fcf1;
-        }
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px 0;
-        }
-        img {
-            width: 60%;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(102, 252, 241, 0.7);
-        }
-        h2 {
-            color:black;
-            margin-top: 20px;
-            text-shadow: 0 0 5px #66fcf1;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.5;
-        }
-        .container:hover {
-            transition: 0.3s;
-            transform: scale(1.02);
-        }
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+    color:black;
+    text-align: center;
+}
+
+#header{
+    color: black;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    color: #66fcf1;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    text-shadow: 0 0 10px #66fcf1;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+img {
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(102, 252, 241, 0.7);
+}
+h2 {
+    color: #66fcf1;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #66fcf1;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.container:hover {
+    transition: 0.3s;
+    transform: scale(1.02);
+}
+.trailer-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    background-color: #66fcf1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #66fcf1;
+}
+.trailer-button:hover {
+    background-color: #45a29e;
+}
+.producer-link {
+    color: #66fcf1;
+    text-decoration: none;
+    font-weight: bold;
+}
+.producer-link:hover {
+    text-decoration: underline;
+}
