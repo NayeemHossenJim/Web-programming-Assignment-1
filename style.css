@@ -18,11 +18,10 @@ body {
     padding: 20px;
 }
 h1 {
-    color: #66fcf1;
+    color:black;
     text-align: center;
     margin-top: 50px;
     font-size: 3em;
-    text-shadow: 0 0 10px #66fcf1;
 }
 .image-container {
     display: flex;
@@ -33,12 +32,10 @@ h1 {
 img {
     width: 60%;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(102, 252, 241, 0.7);
 }
 h2 {
-    color: #66fcf1;
+    color: #000000;
     margin-top: 20px;
-    text-shadow: 0 0 5px #66fcf1;
 }
 p {
     font-size: 1.2em;
@@ -53,17 +50,16 @@ p {
     padding: 10px 20px;
     font-size: 1.2em;
     color: black;
-    background-color: #66fcf1;
+    background-color: #bd3c3c;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 0 10px #66fcf1;
 }
 .trailer-button:hover {
-    background-color: #45a29e;
+    background-color: #ffffff;
 }
 .producer-link {
-    color: #66fcf1;
+    color: #6c7c8b;
     text-decoration: none;
     font-weight: bold;
 }
